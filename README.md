@@ -8,7 +8,7 @@ Project Instructions: https://docs.google.com/document/d/1TDUPuewdklXmQdaOrhP4gl
 ## Installation
 
 This repo is a quickstart to get all the Drupal files on your computer. By
-default it is ready to work with [Lando](https://lando.dev/).
+default it is ready to work with [Lando](https://lando.dev/) and [Docksal](https://docksal.io/).
 
 
 ### Lando
@@ -22,6 +22,8 @@ have it installed.
 
 Normal startup: `lando start`
 
+Use `lando` to see a list of commands such as `lando drush` or `lando composer`.
+
 
 ### Docksal
 
@@ -31,3 +33,5 @@ already have it installed.
 2. In a command line run `fin init`
 
 Normal startup: `fin start`
+
+Use `fin` to see a list of commands such as `fin drush` or `fin composer`.
